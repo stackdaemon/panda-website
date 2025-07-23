@@ -2,7 +2,6 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-/*  common section */
 .container {
   max-width: 1280px;
   margin: auto;
@@ -17,8 +16,11 @@
   padding: 16px 28px;
   border: none;
 }
+/*  common section */
+
+
 /* nav section start */
-nav {
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -212,4 +214,26 @@ nav {
 }
 .email button{
      border-radius: 0 6px 6px 0;
+}
+
+
+@media screen and (max-width:576px) {
+    .nav{
+     flex-direction: column;
+    }
+    .search_prent input{
+     width: 350px;
+     margin-bottom: 20px;
+    }
+    .banner{
+     flex-direction: column-reverse;
+     text-align: center;
+    }
+    .categories_card_container,.shoe_card_container,.shoe_card_container,.email{
+     flex-direction: column;
+    }
+    .email input{
+     padding: 15px 40px;
+    }
+   
 }
