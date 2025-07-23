@@ -231,9 +231,16 @@
     }
     .categories_card_container,.shoe_card_container,.shoe_card_container,.email{
      flex-direction: column;
+     text-align: center;
+     justify-content: center;
+
     }
     .email input{
      padding: 15px 40px;
     }
-   
+   .contact_us{
+     text-align: center;
+     justify-content: center;
+
+   }
 }
