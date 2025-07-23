@@ -7,7 +7,6 @@
   margin: auto;
 }
 
-
 .panda_btn {
   border-radius: 6px;
   background-color: rgba(255, 88, 155, 1);
@@ -17,7 +16,6 @@
   border: none;
 }
 /*  common section */
-
 
 /* nav section start */
 .nav {
@@ -143,12 +141,12 @@
 /* shoes section */
 .shoes_section {
   background: rgb(244, 244, 244);
-  padding:  30px 70px;
+  padding: 30px 70px;
 }
 .shoe_card_container {
   display: flex;
   justify-content: space-between;
-  gap: 24px ;
+  gap: 24px;
 }
 .shoe_card {
   background: white;
@@ -168,79 +166,84 @@
   width: 336px;
   height: 202px;
 }
-.shoe_card button{
-     background-color: black;
-     color: white;
+.shoe_card button {
+  background-color: black;
+  color: white;
 }
-.shoes_bagpak_title{
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
+.shoes_bagpak_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.shoes_bagpak_title h3{
-     font-size: 25px;
-     font-weight: bold;
+.shoes_bagpak_title h3 {
+  font-size: 25px;
+  font-weight: bold;
 }
 .shoes_bagpak_title a {
-     text-decoration: none;
-     color: rgba(255, 157, 0, 1.00);
+  text-decoration: none;
+  color: rgba(255, 157, 0, 1);
 }
 /* Backpack section */
-#bag_img{
-     height: 270px;
-     width: 270px;
+#bag_img {
+  height: 270px;
+  width: 270px;
 }
-#bag_card{
-     width: 360px;
-     height: 583px;
-     
+#bag_card {
+  width: 360px;
+  height: 583px;
 }
 /* Footer section */
-.contact_us{
-     text-align: center;
-     background-color: rgb(254, 234, 233);
-     padding: 20px 10px;
-     margin: 50px auto;
-     border-radius: 12px;
+.contact_us {
+  text-align: center;
+  background-color: rgb(254, 234, 233);
+  padding: 20px 10px;
+  margin: 50px auto;
+  border-radius: 12px;
 }
-.email{
-     display: flex;
-     justify-content: center;
-     gap: 5px;
+.email {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
 }
-.email input{
-     border: none;
-     padding: 15px 103px;
+.email input {
+  border: none;
+  padding: 15px 103px;
 }
-.email button{
-     border-radius: 0 6px 6px 0;
+.email button {
+  border-radius: 0 6px 6px 0;
 }
 
-
-@media screen and (max-width:576px) {
-    .nav{
-     flex-direction: column;
-    }
-    .search_prent input{
-     width: 350px;
-     margin-bottom: 20px;
-    }
-    .banner{
-     flex-direction: column-reverse;
-     text-align: center;
-    }
-    .categories_card_container,.shoe_card_container,.shoe_card_container,.email{
-     flex-direction: column;
-     text-align: center;
-     justify-content: center;
-
-    }
-    .email input{
-     padding: 15px 40px;
-    }
-   .contact_us{
-     text-align: center;
-     justify-content: center;
-
-   }
+@media screen and (max-width: 576px) {
+  .nav {
+    flex-direction: column;
+  }
+  .search_prent input {
+    width: 350px;
+    margin-bottom: 20px;
+  }
+  .banner {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .categories_card_container,
+  .shoe_card_container,
+  .shoe_card_container,
+  .email {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  .email input {
+    padding: 15px 40px;
+  }
+  .contact_us {
+    text-align: center;
+    justify-content: center;
+  }
+  .shoes_section {
+    padding: 30px 15px;
+  }
+  .contact_us{
+     padding: 50px aut0;
+  }
 }
